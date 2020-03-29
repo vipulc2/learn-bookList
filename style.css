@@ -1,0 +1,129 @@
+/*--------------------- */
+/* GENERAL */
+/*--------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1140px;
+  font-size: 20px;
+}
+
+/*--------------------- */
+/* CONTAINERS */
+/*--------------------- */
+.container {
+  width: 60%;
+  margin-left: auto;
+}
+
+.section-add,
+.section-show {
+  width: 100%;
+
+}
+
+/*---------------------------------------------------*/
+/* BOOK ADDING MESSAGE WITH RED AND GREEN BACKGROUND*/
+/*--------------------------------------------------*/
+.msg {
+  display: block;
+  width: 100%;
+  padding: 7px;
+  height: 35px;
+  color: #fff;
+  margin: 15px 0;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.red{
+  background:rgb(233, 72, 72);
+}
+
+.green{
+  background: rgb(65, 245, 110);
+}
+
+.orange{
+  background: rgb(245, 169, 55);
+}
+/*--------------------- */
+/* BOOK ADDING */
+/*--------------------- */
+label {
+  margin-top: 15px;
+  display: block;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+label:first-child {
+  margin-top: 30px;
+}
+
+/*--------------------- */
+/* BOOK INPUT */
+/*--------------------- */
+input[type=text] {
+  display: block;
+  width: 100%;
+  height: 30px;
+  border: solid 1px #ccc;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+/*--------------------- */
+/* SUBMIT BUTTON */
+/*--------------------- */
+input[type=submit] {
+  margin-top: 15px;
+  background: #455A64;
+  color: #ccc;
+  font-weight: bold;
+  font-size: 17px;
+  width: 20%;
+  height: 39px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+/*--------------------- */
+/* TABLE */
+/*--------------------- */
+table {
+  margin-top: 20px;
+  padding-top: 20px;
+  width: 100%;
+  border-top: solid 2px #ccc;
+  border-collapse: collapse;
+}
+
+/* TABLE HEAD */
+th {
+  padding: 15px 0 15px 5px;
+  width: 30%;
+  text-align: left;
+  border-bottom: 2px solid #ccc;
+}
+
+/* TABLE DATA */
+td {
+  padding: 10px 10px 10px 5px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+/* A tag */
+a{
+  text-decoration: none;
+}
